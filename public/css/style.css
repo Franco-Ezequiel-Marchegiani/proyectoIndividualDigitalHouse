@@ -1,0 +1,91 @@
+/* 
+    COLORES
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+ 
+    Tipografías
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+     font-family: 'Roboto', sans-serif;
+ }
+header{
+    background-color: #EAC926;
+}
+.listadoLinks{
+    list-style: none;
+}
+.listadoLinks li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.infoUsuario{
+    padding-top: 20px;
+}
+.burgerMenu{
+    display: flex;
+    justify-content: center;
+}
+.burgerMenu i{
+    font-size: 32px;
+    color: #fff;
+    background-color: #135dac;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+
+.contenidoFooter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.articulosFooter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articulosFooter i{
+    color: #135dac;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.articulosFooter h3{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.articulosFooter p{
+    font-size: 12px;
+    
+}
+.copyright h3{
+    font-size: 12px;
+    font-weight: normal;
+}
