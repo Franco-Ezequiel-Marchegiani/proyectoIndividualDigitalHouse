@@ -100,6 +100,7 @@ header{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .iconoEnvio{
     display: block;
@@ -111,10 +112,13 @@ header{
     background-color: #fff;
     border: solid 1px #39b54a;
     border-radius: 50%;
-    position: relative;
-    top: -30px;
-    left: 200px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
+/* Para que el position absolute funcione, se debe declarar
+un position relative al componente padre, para que sirva como "parámetro"
+a la hora de utilizar el position absolute. */
 .titulares{
     text-align: center;
     font-size: 24px;

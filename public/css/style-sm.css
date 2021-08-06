@@ -40,10 +40,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-
-    .iconoEnvio{
-        left: 20px;
-    }
     .productArticle img{
         width: 40vw;
     }
