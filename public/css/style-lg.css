@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px){
+    .headerTop{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .productArticle img{
+        width: 20vw;
+        padding: 40px;
+    }
+}

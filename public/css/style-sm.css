@@ -1,0 +1,53 @@
+@media screen and (min-width: 361px){
+    .headerTop{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .logo{
+       width: 33%; 
+    }
+    .search-bar{
+        width: 33%; 
+    }
+    .text-comprarCuotas{
+        padding: 20px;
+        font-size: 11px;
+    }
+    .burgerMenu{
+        display: none;
+    }
+    .listContainer-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .listadoLinks{
+        display: flex;
+        font-size: 12px;
+        padding-bottom: 16px;
+    }
+    .listadoLinks li{
+        padding: 0 4px;
+    }
+    .infoUsuario{
+        padding-top: 0;
+    }
+    .listadoLinks li a{
+        font-size: 12px;
+    }
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iconoEnvio{
+        left: 20px;
+    }
+    .productArticle img{
+        width: 40vw;
+    }
+    .subTitle{
+        padding: 40px 0 20px 0;
+    }
+}
