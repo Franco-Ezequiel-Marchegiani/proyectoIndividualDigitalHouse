@@ -167,6 +167,81 @@ a la hora de utilizar el position absolute. */
     font-size: 12px;
     font-weight: normal;
 }
+/* Formularios Register*/
 
+.form{
+    margin: 20px;
+}
+.formContainer label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.formContainer p{
+    position: relative;
+    top: -16px;
+    color: red;
+}
+.formContainer input{
+    margin: 8px 0 16px 0;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 32px;
+}
+.formContainerRadio{
+    margin: 8px 0 16px 0;
+}
+.formRadioTitle{
+    display: block;
+    margin-bottom: 16px;
+}
+.radio{
+    margin: 0 16px;
+}
+.formContainerCheckbox div{
+    padding-bottom: 20px;
+}
+.titleCheckbox{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 16px;
+}
+.checkbox{
+    margin: 8px;
+}
 
+.formContainer button{
+    background-color: #1259c3;
+    color: white;
+    padding: 8px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 5px;
+}
 
+/* Formulario Login */
+.formLogin{
+    max-width: 70%;
+    margin: auto;
+}
+.formContainerLogin label{
+    display: block;
+}
+.formContainerLogin input{
+    margin: 8px 0 16px 0;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 32px;
+}
+.formContainerLogin button{
+    border: none;
+    background-color: #1259c3;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+}
