@@ -119,10 +119,10 @@ header{
     position: absolute;
     right: 20px;
     top: -15px;
-    transition: transform 450ms;
+    transition: transform 750ms;
 }
-.iconoEnvio:hover{
-    transform: rotatez(-90deg);
+.productArticle:hover .iconoEnvio{
+    transform: rotatez(360deg);
 }
 /* Para que el position absolute funcione, se debe declarar
 un position relative al componente padre, para que sirva como "parámetro"
@@ -144,12 +144,8 @@ a la hora de utilizar el position absolute. */
 .descripciones{
     font-size: 16px;
     padding: 16px 0;
-    opacity: 0;
-    transition: opacity 450ms;
 }
-.descripciones:hover{
-    opacity: 1;
-}
+
 
 .contenidoFooter{
     display: flex;

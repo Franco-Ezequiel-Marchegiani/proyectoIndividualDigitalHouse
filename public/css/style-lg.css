@@ -7,10 +7,23 @@
         width: 20vw;
         padding: 40px;
     }
+    .descripciones{
+        display: none;
+        transition: display 450ms;
+    }
+    .descripciones:hover{
+        opacity: 1;
+    }
     /* Footer */
     .contenidoFooter{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
+    }
+    .productArticle:hover .descripciones{
+        opacity: 1;
+    }
+    .productArticle:hover .descripciones{
+        display: block;
     }
 }
