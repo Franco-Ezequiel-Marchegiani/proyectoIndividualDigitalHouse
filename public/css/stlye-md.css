@@ -6,4 +6,10 @@
     .productArticle img{
         padding: 40px;
     }
+    /* Footer */
+    .contenidoFooter{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
 }
