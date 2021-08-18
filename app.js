@@ -1,11 +1,11 @@
 const path = require('path')
 const express = require('express')
 const app = express()
-
-app.listen(3000, ()=>{
+/* En caso de que exista la variable PORT, que se utilice esa, 
+en caso contrario, que utilice el localhost:3000 */
+app.listen(process.env.PORT || 3000, ()=>{
     console.log("Todo en orden")
 })
-
 app.use(express.static(path.join(__dirname, "./public")));
 
 
