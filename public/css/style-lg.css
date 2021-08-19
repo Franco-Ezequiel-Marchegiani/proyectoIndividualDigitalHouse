@@ -3,16 +3,26 @@
         max-width: 1200px;
         margin: auto;
     }
+    .btnHeader{
+        right: 40px;
+    }
     .productArticle img{
         width: 20vw;
         padding: 40px;
     }
     .descripciones{
         display: none;
-        transition: display 450ms;
+        transition: display 950ms;
     }
     .descripciones:hover{
         opacity: 1;
+    }
+    .productArticle:hover .descripciones{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .productArticle:hover .descripciones{
+        display: block;
     }
     /* Footer */
     .contenidoFooter{
@@ -20,10 +30,8 @@
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
-    .productArticle:hover .descripciones{
-        opacity: 1;
-    }
-    .productArticle:hover .descripciones{
-        display: block;
+    /* Login */
+    .formLogin{
+        margin-bottom: 200px;
     }
 }

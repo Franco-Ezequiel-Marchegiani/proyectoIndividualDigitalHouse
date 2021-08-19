@@ -3,13 +3,31 @@
         max-width: 1200px;
         margin: auto;
     }
+    .btnHeader{
+        right: 70px;
+    }
+    .text-comprarCuotas{
+        font-size: 16px;
+    }
+    .listadoLinks li a{
+        font-size: 14px;
+    }
     .productArticle img{
         padding: 40px;
+        transition: transform 450ms;
+    }
+    .productArticle:hover img{
+        transform: scale(1.2);
+        cursor: pointer;
     }
     /* Footer */
     .contenidoFooter{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
+    }
+    /* Login */
+    .formLogin{
+        margin-bottom: 320px;
     }
 }
