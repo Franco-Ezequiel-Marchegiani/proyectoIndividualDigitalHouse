@@ -215,6 +215,9 @@ a la hora de utilizar el position absolute. */
 }
 .form{
     margin: 20px;
+    background-color: #EAC926;
+    border-radius: 8px;
+    padding: 20px;
 }
 .formContainer label{
     font-size: 16px;
@@ -270,6 +273,7 @@ a la hora de utilizar el position absolute. */
     max-width: 70%;
     margin: auto;
     padding: 40px 0 40px;
+    
 }
 .formContainerLogin label{
     display: block;

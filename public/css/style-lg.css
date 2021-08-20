@@ -33,5 +33,12 @@
     /* Login */
     .formLogin{
         margin-bottom: 200px;
+        max-width: 50%;
+    }
+    
+    /* Registro */
+    .form{
+        max-width: 65%;
+        margin: auto;
     }
 }
